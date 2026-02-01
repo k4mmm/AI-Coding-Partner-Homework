@@ -1,2 +1,0 @@
-customer_id,customer_email,customer_name,subject,description,category,priority,status,assigned_to,tags,source,browser,device_type
-C001,not-an-email,Alice,Subject,Too short,invalid_category,invalid_priority,invalid_status,,tags,web_form,Chrome,unknown
