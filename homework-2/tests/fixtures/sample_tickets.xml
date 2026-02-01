@@ -1,0 +1,423 @@
+<tickets>
+  <ticket>
+    <customer_id>X001</customer_id>
+    <customer_email>xml1@example.com</customer_email>
+    <customer_name>Xml One</customer_name>
+    <subject>Login blocked</subject>
+    <description>Cannot login due to 2FA issue</description>
+    <category>account_access</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <tags>auth</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X002</customer_id>
+    <customer_email>xml2@example.com</customer_email>
+    <customer_name>Xml Two</customer_name>
+    <subject>Error on submit</subject>
+    <description>App throws error on submit</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>bug</tags>
+    <source>api</source>
+    <browser>Firefox</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X003</customer_id>
+    <customer_email>xml3@example.com</customer_email>
+    <customer_name>Xml Three</customer_name>
+    <subject>Invoice question</subject>
+    <description>Question about invoice total</description>
+    <category>billing_question</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <tags>billing</tags>
+    <source>api</source>
+    <browser>Safari</browser>
+    <device_type>mobile</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X004</customer_id>
+    <customer_email>xml4@example.com</customer_email>
+    <customer_name>Xml Four</customer_name>
+    <subject>Feature request</subject>
+    <description>Please add export feature</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <tags>ux</tags>
+    <source>api</source>
+    <browser>Edge</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X005</customer_id>
+    <customer_email>xml5@example.com</customer_email>
+    <customer_name>Xml Five</customer_name>
+    <subject>Bug report</subject>
+    <description>Bug report with steps</description>
+    <category>bug_report</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>bug</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X006</customer_id>
+    <customer_email>xml6@example.com</customer_email>
+    <customer_name>Xml Six</customer_name>
+    <subject>ASAP fix</subject>
+    <description>Blocking issue needs ASAP fix</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>ops</tags>
+    <source>api</source>
+    <browser>Firefox</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X007</customer_id>
+    <customer_email>xml7@example.com</customer_email>
+    <customer_name>Xml Seven</customer_name>
+    <subject>Refund request</subject>
+    <description>Requesting refund for duplicate charge</description>
+    <category>billing_question</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>billing</tags>
+    <source>api</source>
+    <browser>Safari</browser>
+    <device_type>mobile</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X008</customer_id>
+    <customer_email>xml8@example.com</customer_email>
+    <customer_name>Xml Eight</customer_name>
+    <subject>Critical crash</subject>
+    <description>Critical crash in production</description>
+    <category>technical_issue</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <tags>ops</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X009</customer_id>
+    <customer_email>xml9@example.com</customer_email>
+    <customer_name>Xml Nine</customer_name>
+    <subject>Cosmetic suggestion</subject>
+    <description>Minor cosmetic suggestion</description>
+    <category>bug_report</category>
+    <priority>low</priority>
+    <status>new</status>
+    <tags>ux</tags>
+    <source>api</source>
+    <browser>Edge</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X010</customer_id>
+    <customer_email>xml10@example.com</customer_email>
+    <customer_name>Xml Ten</customer_name>
+    <subject>Locked out</subject>
+    <description>Can't access account due to password issue</description>
+    <category>account_access</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <tags>auth</tags>
+    <source>api</source>
+    <browser>Firefox</browser>
+    <device_type>mobile</device_type>
+  </ticket>
+  <!-- 20 more tickets to reach 30 -->
+  <ticket>
+    <customer_id>X011</customer_id>
+    <customer_email>xml11@example.com</customer_email>
+    <customer_name>Xml Eleven</customer_name>
+    <subject>Security alert</subject>
+    <description>Possible security issue detected</description>
+    <category>technical_issue</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <tags>security</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X012</customer_id>
+    <customer_email>xml12@example.com</customer_email>
+    <customer_name>Xml Twelve</customer_name>
+    <subject>Invoice missing</subject>
+    <description>Invoice email missing</description>
+    <category>billing_question</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <tags>billing</tags>
+    <source>api</source>
+    <browser>Safari</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X013</customer_id>
+    <customer_email>xml13@example.com</customer_email>
+    <customer_name>Xml Thirteen</customer_name>
+    <subject>Feature: dark theme</subject>
+    <description>Request for dark theme</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <tags>ux</tags>
+    <source>api</source>
+    <browser>Edge</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X014</customer_id>
+    <customer_email>xml14@example.com</customer_email>
+    <customer_name>Xml Fourteen</customer_name>
+    <subject>Bug with steps</subject>
+    <description>Bug report including steps to reproduce</description>
+    <category>bug_report</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <tags>bug</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X015</customer_id>
+    <customer_email>xml15@example.com</customer_email>
+    <customer_name>Xml Fifteen</customer_name>
+    <subject>ASAP urgent</subject>
+    <description>ASAP fix required for blocking error</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>ops</tags>
+    <source>api</source>
+    <browser>Firefox</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X016</customer_id>
+    <customer_email>xml16@example.com</customer_email>
+    <customer_name>Xml Sixteen</customer_name>
+    <subject>Refund needed</subject>
+    <description>Need refund for accidental charge</description>
+    <category>billing_question</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>billing</tags>
+    <source>api</source>
+    <browser>Safari</browser>
+    <device_type>mobile</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X017</customer_id>
+    <customer_email>xml17@example.com</customer_email>
+    <customer_name>Xml Seventeen</customer_name>
+    <subject>Password reset failed</subject>
+    <description>Password reset link not working</description>
+    <category>account_access</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <tags>auth</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X018</customer_id>
+    <customer_email>xml18@example.com</customer_email>
+    <customer_name>Xml Eighteen</customer_name>
+    <subject>Add shortcuts</subject>
+    <description>Feature request to add keyboard shortcuts</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <tags>ux</tags>
+    <source>api</source>
+    <browser>Edge</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X019</customer_id>
+    <customer_email>xml19@example.com</customer_email>
+    <customer_name>Xml Nineteen</customer_name>
+    <subject>Crash on login</subject>
+    <description>App crashes during login</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>bug</tags>
+    <source>api</source>
+    <browser>Firefox</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X020</customer_id>
+    <customer_email>xml20@example.com</customer_email>
+    <customer_name>Xml Twenty</customer_name>
+    <subject>Cosmetic bug</subject>
+    <description>Minor cosmetic bug in modal</description>
+    <category>bug_report</category>
+    <priority>low</priority>
+    <status>new</status>
+    <tags>ux</tags>
+    <source>api</source>
+    <browser>Safari</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X021</customer_id>
+    <customer_email>xml21@example.com</customer_email>
+    <customer_name>Xml Twenty-One</customer_name>
+    <subject>Security fix</subject>
+    <description>Critical security vulnerability</description>
+    <category>technical_issue</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <tags>security</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X022</customer_id>
+    <customer_email>xml22@example.com</customer_email>
+    <customer_name>Xml Twenty-Two</customer_name>
+    <subject>Refund case</subject>
+    <description>Refund for wrong purchase</description>
+    <category>billing_question</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>billing</tags>
+    <source>api</source>
+    <browser>Edge</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X023</customer_id>
+    <customer_email>xml23@example.com</customer_email>
+    <customer_name>Xml Twenty-Three</customer_name>
+    <subject>Feature: export</subject>
+    <description>Request export functionality</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <tags>ux</tags>
+    <source>api</source>
+    <browser>Firefox</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X024</customer_id>
+    <customer_email>xml24@example.com</customer_email>
+    <customer_name>Xml Twenty-Four</customer_name>
+    <subject>Bug with steps</subject>
+    <description>Defect with reproduction steps</description>
+    <category>bug_report</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <tags>bug</tags>
+    <source>api</source>
+    <browser>Safari</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X025</customer_id>
+    <customer_email>xml25@example.com</customer_email>
+    <customer_name>Xml Twenty-Five</customer_name>
+    <subject>Locked out</subject>
+    <description>Can't access account after 2FA change</description>
+    <category>account_access</category>
+    <priority>urgent</priority>
+    <status>new</status>
+    <tags>auth</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>mobile</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X026</customer_id>
+    <customer_email>xml26@example.com</customer_email>
+    <customer_name>Xml Twenty-Six</customer_name>
+    <subject>Error 500</subject>
+    <description>Server returns 500 error</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>ops</tags>
+    <source>api</source>
+    <browser>Firefox</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X027</customer_id>
+    <customer_email>xml27@example.com</customer_email>
+    <customer_name>Xml Twenty-Seven</customer_name>
+    <subject>Invoice query</subject>
+    <description>Question about last month invoice</description>
+    <category>billing_question</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <tags>billing</tags>
+    <source>api</source>
+    <browser>Chrome</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X028</customer_id>
+    <customer_email>xml28@example.com</customer_email>
+    <customer_name>Xml Twenty-Eight</customer_name>
+    <subject>Add multi-language</subject>
+    <description>Feature request: multi-language support</description>
+    <category>feature_request</category>
+    <priority>low</priority>
+    <status>new</status>
+    <tags>ux</tags>
+    <source>api</source>
+    <browser>Edge</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X029</customer_id>
+    <customer_email>xml29@example.com</customer_email>
+    <customer_name>Xml Twenty-Nine</customer_name>
+    <subject>UI defect</subject>
+    <description>Defect with reproduction steps</description>
+    <category>bug_report</category>
+    <priority>medium</priority>
+    <status>new</status>
+    <tags>ux</tags>
+    <source>api</source>
+    <browser>Safari</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+  <ticket>
+    <customer_id>X030</customer_id>
+    <customer_email>xml30@example.com</customer_email>
+    <customer_name>Xml Thirty</customer_name>
+    <subject>ASAP fix needed</subject>
+    <description>Blocking bug needs ASAP fix</description>
+    <category>technical_issue</category>
+    <priority>high</priority>
+    <status>new</status>
+    <tags>ops</tags>
+    <source>api</source>
+    <browser>Firefox</browser>
+    <device_type>desktop</device_type>
+  </ticket>
+</tickets>
