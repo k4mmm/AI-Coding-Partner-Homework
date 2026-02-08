@@ -1,5 +1,8 @@
 # Support Ticket System (Node.js/Express)
 
+> **Student Name**: [Kostia Chaikivskyi]
+> **Date Submitted**: [01.02.2026]
+
 Project overview: multi-format ticket import (CSV/JSON/XML), automatic categorization and priority assignment, REST API, comprehensive tests (>85% coverage), and multi-level documentation.
 
 ## Solution & Approach
