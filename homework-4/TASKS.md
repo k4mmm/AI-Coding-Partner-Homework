@@ -93,7 +93,7 @@ homework-5/
 ├── README.md
 ├── HOWTORUN.md
 ├── STUDENT.md
-├── agents/
+├── .github/agents/
 │   ├── research-verifier.agent.md
 │   ├── bug-implementer.agent.md
 │   ├── security-verifier.agent.md

@@ -16,10 +16,10 @@ const users = [
  * @param {Object} res - Express response object
  */
 async function getUserById(req, res) {
-  const userId = req.params.id;
+  const userId = parseInt(req.params.id, 10);
 
-  // BUG: req.params.id returns a string, but users array uses numeric IDs
-  // Strict equality (===) comparison will always fail: "123" !== 123
+  // FIX (API-404): Convert string param to number for strict equality comparison
+  // Express route params are always strings, but users array stores numeric IDs
   const user = users.find(u => u.id === userId);
 
   if (!user) {
