@@ -7,7 +7,7 @@
 | **Name** | [Kostia Chaikivskyi] |
 | **Course** | AI Coding Partner |
 | **Homework** | #4 - 4-Agent Pipeline |
-| **Date** | 23 February 2026 |
+| **Date** |23 February 2026|
 
 ---
 
