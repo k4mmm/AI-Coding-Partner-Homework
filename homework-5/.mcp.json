@@ -1,0 +1,38 @@
+{
+  "mcpServers": {
+    "github": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "<YOUR_GITHUB_PAT>"
+      }
+    },
+    "filesystem": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/Users/k.chaikivskyi/AI learning/AI-Coding-Partner-Homework"
+      ]
+    },
+    "jira": {
+      "type": "stdio",
+      "command": "/Users/k.chaikivskyi/.local/bin/uvx",
+      "args": [
+        "mcp-atlassian",
+        "--jira-url", "https://chaichka175.atlassian.net",
+        "--jira-username", "chaichka175@gmail.com",
+        "--jira-token", "<YOUR_JIRA_API_TOKEN>"
+      ]
+    },
+    "lorem-ipsum": {
+      "type": "stdio",
+      "command": "/Users/k.chaikivskyi/AI learning/AI-Coding-Partner-Homework/homework-5/custom-mcp-server/.venv/bin/python",
+      "args": [
+        "/Users/k.chaikivskyi/AI learning/AI-Coding-Partner-Homework/homework-5/custom-mcp-server/server.py"
+      ]
+    }
+  }
+}
