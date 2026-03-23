@@ -4,7 +4,7 @@
 
 This is your final capstone. You will build **four meta-agents** (AI/automation workflows) that **create** a **transaction processing system** from scratch. Each agent has a distinct role: one produces the specification, one the code, one the tests, and one the documentation. The **output** of these agents is a working transaction processing pipeline (e.g. validator, fraud detection, settlement); the **deliverable** is both the four meta-agents and the resulting system. No starter code is provided.
 
-**This assignment is language-agnostic.** Implement the pipeline in the language and framework of your choice (e.g. Python, Node.js, Java, Go). Examples in this document may use one stack; equivalent commands and patterns in your chosen stack are acceptable.
+**This assignment is language-agnostic.** Implement the pipeline in the language and framework (Node.js, JavaScript, Express). Examples in this document may use one stack; equivalent commands and patterns in your chosen stack are acceptable.
 
 ---
 
