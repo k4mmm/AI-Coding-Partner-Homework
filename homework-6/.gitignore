@@ -1,0 +1,7 @@
+node_modules/
+shared/input/
+shared/processing/
+shared/output/
+shared/results/
+coverage/
+*.log

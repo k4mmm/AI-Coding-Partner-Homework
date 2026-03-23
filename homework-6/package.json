@@ -1,0 +1,35 @@
+{
+  "name": "banking-pipeline",
+  "version": "1.0.0",
+  "description": "AI-Powered Multi-Agent Banking Transaction Pipeline",
+  "main": "integrator.js",
+  "scripts": {
+    "pipeline": "node integrator.js",
+    "validate": "node agents/transaction_validator.js --dry-run",
+    "test": "jest --coverage",
+    "test:ci": "jest --coverage --coverageReporters=text-summary"
+  },
+  "dependencies": {
+    "decimal.js": "^10.4.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coverageThreshold": {
+      "global": {
+        "lines": 80,
+        "functions": 80,
+        "branches": 80,
+        "statements": 80
+      }
+    },
+    "collectCoverageFrom": [
+      "agents/**/*.js",
+      "integrator.js",
+      "!**/node_modules/**"
+    ]
+  }
+}
